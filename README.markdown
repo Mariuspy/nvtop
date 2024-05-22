@@ -243,13 +243,13 @@ Build process for OpenSUSE:
   sudo zypper install libdrm-devel
   ```
 
-- NVIDIA Depenency
+- NVIDIA Dependency
   - NVIDIA drivers (see [SUSE Support Database](https://en.opensuse.org/SDB:NVIDIA_drivers))
 
 - NVTOP Dependencies
   - CMake, ncurses and Git
     ```bash
-    sudo zypper install cmake ncurses-devel git
+    sudo zypper install cmake ncurses-devel git gcc-c++
     ```
 
 - NVTOP
